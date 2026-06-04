@@ -714,9 +714,9 @@ class GameEngine:
                 pygame.draw.rect(self.screen, GOLD, btn_hanuman_rect, 4, border_radius=8)
                 
             pygame.draw.rect(self.screen, (30, 60, 80), btn_garuda_rect, border_radius=8)
-            self.screen.blit(self.font_small.render("PILIH GARUDA-MON", True, WHITE), self.font_small.render("PILIH GARUDA-MON", True, WHITE).get_rect(center=btn_garuda_rect.center))
+            self.screen.blit(self.font_small.render(" GARUDA-MON", True, WHITE), self.font_small.render(" GARUDA-MON", True, WHITE).get_rect(center=btn_garuda_rect.center))
             pygame.draw.rect(self.screen, (80, 50, 30), btn_hanuman_rect, border_radius=8)
-            self.screen.blit(self.font_small.render("PILIH HANUMAN-MON", True, WHITE), self.font_small.render("PILIH HANUMAN-MON", True, WHITE).get_rect(center=btn_hanuman_rect.center))
+            self.screen.blit(self.font_small.render(" HANUMAN-MON", True, WHITE), self.font_small.render(" HANUMAN-MON", True, WHITE).get_rect(center=btn_hanuman_rect.center))
 
             if self.flash_color:
                 flash_surf = pygame.Surface((SCREEN_WIDTH, SCREEN_HEIGHT))

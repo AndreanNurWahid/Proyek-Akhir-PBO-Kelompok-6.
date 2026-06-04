@@ -127,3 +127,12 @@ Method use() dipanggil dengan cara yang sama, tetapi menghasilkan perilaku yang 
 tergantung jenis objeknya. Jika objek berupa HealthPotion, maka HP karakter akan bertambah. 
 Jika objek berupa AttackPotion, maka nilai serangan karakter akan meningkat. Hal ini 
 menunjukkan penerapan Polymorphism melalui Method Overriding.
+
+![Menu Utama](Assets/awal.jpeg)
+![Pengaturan](Assets/settings.jpeg)
+![Loading](Assets/loading.jpeg)
+![Game](Assets/game.jpeg)
+![Dalog](Assets/dialog.jpeg)
+![VS Monster](Assets/vs_monster.jpeg)
+![Pengaturan](Assets/select.jpeg)
+![Pengaturan](Assets/vs_rajajin.jpeg)
