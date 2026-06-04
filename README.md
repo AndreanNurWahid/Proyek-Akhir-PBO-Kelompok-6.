@@ -66,7 +66,8 @@ class Entity:
         self.anim_frame = 0 
         self.anim_speed = 80    
         self.last_update = pygame.time.get_ticks() 
-        self.is_moving = False 
+        self.is_moving = False
+```
  
 Class Turunan
 ```python
